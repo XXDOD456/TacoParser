@@ -36,11 +36,22 @@ namespace LoggingKata
 
             // Create two `ITrackable` variables with initial values of `null`. These will be used to store your two taco bells that are the furthest from each other.
             // Create a `double` variable to store the distance
-
+            ITrackable locA = null;
+            ITrackable locB = null;
+            double distance;
             // Include the Geolocation toolbox, so you can compare locations: `using GeoCoordinatePortable;`
 
             //HINT NESTED LOOPS SECTION---------------------
             // Do a loop for your locations to grab each location as the origin (perhaps: `locA`)
+            foreach(var loc1 in locations)
+            {
+
+                foreach(var loc2 in locations)
+                {
+
+                }
+
+            }
 
             // Create a new corA Coordinate with your locA's lat and long
 
